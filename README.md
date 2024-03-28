@@ -22,24 +22,30 @@ Technologies:
 
 Installation:
        Clone the repository:
+       
          https://github.com/Kungu-Prince/elarian-micro-banking.git
-    Navigate to the project directory:
+         
+  Navigate to the project directory:
     bash
+    
           cd API BANKING
-
-      Install dependencies
+          
+  Install dependencies
+    
            pip install -r requirements.txt
   
 Set up environment variables:
 Create a .env file in the root directory.
 Add the following environment variables:
- Run this in your command prompt terminal where you project is for it the environ variables to be saved
+ Run this in your command prompt terminal where your project is in for its  environ variables to be saved
 makefile
+
       MONGODB_URI=<your_MongoDB_URI_here>
      AFRICASTALKING_USERNAME=<your_AfricasTalking_username_here>
       AFRICASTALKING_API_KEY=<your_AfricasTalking_API_key_here>
 
 Run the application:
+
       python app.py
 
 Usage:
@@ -58,4 +64,4 @@ Acknowledgements:
 •	Africa's Talking
 
 Contact:
-For any inquiries or support, please contact  princekungu8@gmai
+For any inquiries or support, please contact   princekungu8@gmail.com
