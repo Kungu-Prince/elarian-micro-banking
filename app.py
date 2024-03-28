@@ -3,15 +3,15 @@ from pymongo import MongoClient
 import africastalking
 
 # Initialize Africa's Talking SDK
-username = "YOUR_USERNAME"
-api_key = "YOUR_API_KEY"
+username = ""
+api_key = "ef51694befa4eb626041216fa2e363b574ddc14b47f22e558e79681183604c40"
 africastalking.initialize(username, api_key)
 sms = africastalking.SMS
 
 app = Flask(__name__)
 
 # Connect to MongoDB Atlas
-client = MongoClient("mongodb+srv://Saitabau:%23Saitabau28@atlascluster.vczjtel.mongodb.net/")
+client = MongoClient("mongodb+srv://KunguPrince:0987654321qweasd@cluster0.9bns4v3.mongodb.net/")
 db = client.get_database("banking_app")
 users_collection = db["users"]
 loans_collection = db["loans"]
